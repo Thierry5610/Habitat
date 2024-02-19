@@ -4,14 +4,7 @@ import { getStorage, ref, uploadBytes,getDownloadURL, deleteObject,listAll} from
 
 const useDataBase = () => {
     const firebaseConfig = {
-        apiKey: "AIzaSyDkoChW0nCHrRDZRgDxV19qrsNAC1oi0_c",
-        authDomain: "habitat-4c8a3.firebaseapp.com",
-        databaseURL: "https://habitat-4c8a3-default-rtdb.firebaseio.com",
-        projectId: "habitat-4c8a3",
-        storageBucket: "habitat-4c8a3.appspot.com",
-        messagingSenderId: "240119283486",
-        appId: "1:240119283486:web:c00e1c430cb0e53b68530f",
-        measurementId: "G-8X2HX7SEJL"
+        /* firebase config goes here*/
       };
 
     const app = initializeApp(firebaseConfig);
